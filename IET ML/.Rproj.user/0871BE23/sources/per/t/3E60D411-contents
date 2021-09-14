@@ -112,7 +112,7 @@ summary(results)
 print(fit.rf)
 ggplot(fit.rf) + theme_bw()+ggtitle("Random Forest Model: Accuracy vs Number of Randomly Selected Predictors")+theme(plot.title = element_text(hjust = 0.5))
 ggsave("Random Forest Model Accuracy vs Number of Randomly Selected Predictors.png", width = 5, height = 5)
-write.csv(fit.rf[["results"]],"C:\\Users\\User\\Google Drive\\Master Syahmi\\5G\\PHD\\Subcarrier Prediction\\Machine learning subcarrier prediction2\\subcarrier prediction\\IET_Rf_Results.csv", row.names = TRUE)
+#write.csv(fit.rf[["results"]],"C:\\Users\\User\\Google Drive\\Master Syahmi\\5G\\PHD\\Subcarrier Prediction\\Machine learning subcarrier prediction2\\subcarrier prediction\\IET_Rf_Results.csv", row.names = TRUE)
 
 
 # estimate skill of RF on the validation dataset
